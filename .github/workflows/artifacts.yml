@@ -14,7 +14,7 @@ jobs:
             name: my-artifact
         - name: Display structure of downloaded files
           run: ls -R
-        - run: cat myArtifacts.txt
+        - run: cat myArtifact.txt
       
     upload-artifact:
       name: job to upload an artifact
